@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projects | Harsh Gupta</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <div class="logo">Harsh G.</div>
+      <input type="checkbox" id="menu-toggle" />
+      <label for="menu-toggle" class="menu-icon"
+        ><i class="fas fa-bars"></i
+      ></label>
+
+      <!-- NAV Links -->
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="Resume.pdf">Resume</a></li>
+        <li>
+          <a
+            href="mailto:harshgupta00034@gmail.com?subject=Hello&body=I want to contact you."
+            >Contect</a
+          >
+        </li>
+      </ul>
+
+      <!-- Social Icons -->
+      <div class="social-icons">
+        <a href="https://x.com/HarshGupta3034"
+          ><i class="fab fa-twitter"></i
+        ></a>
+        <a href="https://www.instagram.com/harshgupta034/"
+          ><i class="fab fa-instagram"></i
+        ></a>
+        <a href="https://www.linkedin.com/in/harah-gupta034" target="_blank"
+          ><i class="fab fa-linkedin"></i
+        ></a>
+        <a href="https://github.com/harsh-034"><i class="fab fa-github"></i></a>
+      </div>
+    </nav>
+    <!-- Floating Hire Me Button -->
+    <div class="hire-button-container" id="hireButtonContainer">
+      <button class="hire-button">Hire Me<br />Software Developer</button>
+      <button class="cancel-button" onclick="hideHireButton()">✕</button>
+    </div>
+
+    <!-- Projects Section -->
+    <section
+      style="
+        padding: 60px 20px;
+        background: linear-gradient(to right, #ccb7f2, #dcacec);
+      "
+    >
+      <h2 style="text-align: center; font-size: 2rem; margin-bottom: 30px">
+        My Projects
+      </h2>
+
+      <div class="project-grid">
+        <!-- Project 1 -->
+        <div class="project-card">
+          <img
+            src="image/collageportal.jpg"
+            alt="Kishorgonj Project"
+            class="project-img"
+          />
+          <h3>🎓✨ Online College Portal (OCP) ✨🎓</h3>
+          <p>
+            Online College Portal (OCP) is a powerful and modern web-based
+            solution designed to transform college management into a smart,
+            digital experience. From online admissions, course updates, and
+            event announcements to tracking student progress — everything is
+            managed effortlessly through a secure, user-friendly portal. With
+            staff login, photo galleries, and academic tools all integrated, OCP
+            ensures a seamless digital environment for students and
+            administration alike. It’s not just a project — it’s a complete
+            smart college system! 🔥🎓💻
+          </p>
+          <p>
+            <strong>Technologies:</strong>HTML5, CSS3, JavaScript, Bootstrap,
+            PHP 7+, MySQL Tools: Visual Studio Code, Git & GitHub, XAMPP/WAMP
+          </p>
+          <a
+            href="https://github.com/harsh-034/Online-Collage-Portal-"
+            class="btn"
+            >Live Link</a
+          >
+          <div class="repo-links">
+            <a href="https://github.com/harsh-034/Online-Collage-Portal-"
+              ><i class="fab fa-github"></i> Server Repo</a
+            >
+            <a href="https://github.com/harsh-034/Online-Collage-Portal-"
+              ><i class="fab fa-github"></i> Client Repo</a
+            >
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card">
+          <img
+            src="image/ddd.jpg"
+            alt="Meet Ready Project"
+            class="project-img"
+          />
+          <h3>Collage Website </h3>
+          <p>
+            College Website Project is a dynamic and responsive web platform
+            crafted to enhance communication, streamline college updates, and
+            provide a seamless user experience for students. Key modules include
+            a Homepage, Events Section, Notices, Course Details, Student Portal,
+            and Contact Page. Future upgrades will feature student
+            authentication and a full-featured admin panel.
+          </p>
+          <p>
+            <strong>Technologies:</strong>HTML, CSS, JavaScript, PHPMySQL,
+            Bootstrap (for responsive design)
+          </p>
+          <a
+            href="https://harsh-034.github.io/Collage-Website-Project/"
+            class="btn"
+            >Live Link</a
+          >
+          <div class="repo-links">
+            <a href="https://github.com/harsh-034/Collage-Website-Project"
+              ><i class="fab fa-github"></i> Server Repo</a
+            >
+            <a href="https://github.com/harsh-034/Collage-Website-Project"
+              ><i class="fab fa-github"></i> Client Repo</a
+            >
+          </div>
+        </div>
+
+        <!-- More project cards can be added below -->
+      </div>
+    </section>
+    <script>
+      function hideHireButton() {
+        document.getElementById("hireButtonContainer").style.display = "none";
+      }
+    </script>
+
+    <!-- Footer -->
+    <footer>
+      <h2>Let’s Connect</h2>
+      <div class="footer-icons">
+        <a href="https://github.com/harsh-034"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/harah-gupta034" target="_blank"
+          ><i class="fab fa-linkedin"></i
+        ></a>
+        <a href="https://www.instagram.com/harshgupta034/"
+          ><i class="fab fa-instagram"></i
+        ></a>
+        <a href="https://x.com/HarshGupta3034"
+          ><i class="fab fa-twitter"></i
+        ></a>
+      </div>
+      <p>Designed & Built by <strong>Harsh Gupta</strong></p>
+      <p>&copy; 2025 All rights reserved</p>
+    </footer>
+  </body>
+</html>

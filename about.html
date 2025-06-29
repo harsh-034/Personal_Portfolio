@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Harsh Gupta Portfolio</title>
+
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar" data-aos="fade-down">
+  <div class="logo">Harsh G.</div>
+  <input type="checkbox" id="menu-toggle">
+  <label for="menu-toggle" class="menu-icon"><i class="fas fa-bars"></i></label>
+  <ul class="nav-links">
+    <li><a href="index.html">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="project.html">Projects</a></li>
+      <li><a href="Resume.pdf">Resume</a></li>
+      <li><a href="mailto:harshgupta00034.com?subject=Hello&body=I want to contact you.">Contect</a></li>
+  </ul>
+  <div class="social-icons">
+    <a href="https://x.com/HarshGupta3034"><i class="fab fa-twitter"></i></a>
+    <a href="https://www.instagram.com/harshgupta034/"><i class="fab fa-instagram"></i></a>
+    <a href="https://www.linkedin.com/in/harah-gupta034" target="_blank"><i class="fab fa-linkedin"></i></a>
+    <a href="https://github.com/harsh-034"><i class="fab fa-github"></i></a>
+  </div>
+</nav>
+
+
+<!-- Floating Hire Me Button -->
+<div class="hire-button-container" id="hireButtonContainer">
+  <button class="hire-button">
+    Hire Me<br>Software Developer
+  </button>
+  <button class="cancel-button" onclick="hideHireButton()">✕</button>
+</div>
+
+<!-- About Me Section -->
+<section style="display: flex; flex-wrap: wrap; justify-content: center; align-items: center; padding: 60px 20px; background: linear-gradient(90deg, #ccb7f2, #dcacec);">
+  <div style="flex: 1; min-width: 280px; max-width: 400px; padding: 20px;">
+    <h2 style="font-weight: bold; font-size: 22px; margin-bottom: 15px;">BIOGRAPHY</h2>
+    <p>Hi, I'm Harsh Gupta, a passionate software developer currently pursuing a Bachelor’s degree in Information Technology from R. K. Talreja College, University of Mumbai. With experience in Java, Spring Boot, ASP.NET, and full-stack development, I thrive on solving real-world problems through elegant code.</p><br>
+    <p>I’ve completed internships, built responsive web applications, and consistently look for ways to expand my technical skills. I'm particularly driven by my interest in backend development and system design.</p><br>
+    <p>My recent participation in the Avishkar Research Convention for object detection using deep learning reflects my commitment to learning and innovation in tech. Let’s build something impactful together!</p>
+  </div>
+
+  <div style="flex: 1; min-width: 280px; max-width: 300px; padding: 20px; text-align: center;">
+    <img src="image/harshgupta.jpg" alt="Harsh Gupta" style="width: 100%; border-radius: 20px; box-shadow: 0 0 10px black; padding: 5px; background: #fff;" />
+  </div>
+
+  <div style="flex: 1; min-width: 280px; max-width: 400px; padding: 20px;">
+    <h2 style="font-weight: bold; font-size: 22px; margin-bottom: 15px;">PERSONAL INFO</h2>
+    <p><strong>Name:</strong> Harsh Gupta</p>
+    <p><strong>Email:</strong> <a href="mailto:harshgupta00034@gmail.com">harshgupta00034@gmail.com</a></p>
+    <p><strong>Location:</strong> Thane, Mumbai, Maharashtra</p>
+    <p><strong>Phone:</strong> +91 7208225873</p>
+    <p><strong>Freelance:</strong> <span style="color: lightgreen; font-weight: bold;">Available <i class="fas fa-circle" style="color: limegreen;"></i></span></p>
+    <p><strong>Languages:</strong> English, Hindi</p>
+    <p><strong>Hobbies:</strong> Coding, Traveling</p>
+  </div>
+</section>
+
+<!-- Resume-Based Skills Circle -->
+<section id="skills" style="padding: 60px 20px; text-align: center; background: linear-gradient(to right, #ccb7f2, #dcacec);">
+  <h2 style="font-size: 2rem; margin-bottom: 10px;">Technical Skills</h2>
+  <div class="circle-wrapper">
+    <div class="circle">
+      <div class="center">SKILLS</div>
+      <div class="item skill1">Java</div>
+      <div class="item skill2">C#</div>
+      <div class="item skill3">SQL</div>
+      <div class="item skill4">Spring Boot</div>
+      <div class="item skill5">ASP.NET</div>
+      <div class="item skill6">HTML</div>
+      <div class="item skill7">CSS</div>
+      <div class="item skill8">JavaScript</div>
+      <div class="item skill9">Bootstrap</div>
+      <div class="item skill10">MySQL</div>
+      <div class="item skill11">PHP</div>
+    </div>
+  </div>
+</section>
+<script>
+  function hideHireButton() {
+    document.getElementById('hireButtonContainer').style.display = 'none';
+  }
+</script>
+
+
+<!-- Footer -->
+<footer>
+  <h2>Let’s Connect</h2>
+  <div class="footer-icons">
+    <a href="https://github.com/harsh-034"><i class="fab fa-github"></i></a>
+    <a href="https://www.linkedin.com/in/harah-gupta034" target="_blank"><i class="fab fa-linkedin"></i></a>
+    <a href="https://www.instagram.com/harshgupta034/"><i class="fab fa-instagram"></i></a>
+    <a href="https://x.com/HarshGupta3034"><i class="fab fa-twitter"></i></a>
+  </div>
+  <p>Designed & Built by <strong>Harsh Gupta</strong></p>
+  <p>&copy; 2025 All rights reserved</p>
+</footer>
+
+<!-- AOS animation -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+</body>
+</html>
