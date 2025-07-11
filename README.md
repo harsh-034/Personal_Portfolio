@@ -45,7 +45,7 @@ I'm a passionate developer who loves turning ideas into real-world software 💡
 ## 📫 Connect With Me
 
 🔗 [LinkedIn](https://www.linkedin.com/in/harah-gupta034/)  
-📧 Email: your-harshgupta00034@gmail.com  
+📧 Email: harshgupta00034@gmail.com  
 🌍 [Portfolio](https://harshgupta0034.netlify.app/)
 
 ---
