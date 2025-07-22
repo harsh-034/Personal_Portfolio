@@ -36,12 +36,6 @@ I'm a passionate developer who loves turning ideas into real-world software 💡
 
 ---
 
-## 📊 GitHub Stats
-
-![Harsh's GitHub stats](https://github-readme-stats.vercel.app/api?username=harshgupta0034&show_icons=true&theme=tokyonight)
-
----
-
 ## 📫 Connect With Me
 
 🔗 [LinkedIn](https://www.linkedin.com/in/harah-gupta034/)  
