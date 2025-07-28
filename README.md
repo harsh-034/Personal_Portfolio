@@ -6,7 +6,7 @@ I'm a passionate developer who loves turning ideas into real-world software 💡
 
 🌐 **Portfolio**: [harshgupta0034.netlify.app](https://harshgupta0034.netlify.app/)
 
-🌐 **Portfolio**: [harshgupta0034.netlify.app](https://harshgupta0034.netlify.app/)
+🌐 **Portfolio**: [harsh-034.github.io](https://harsh-034.github.io/Personal_Portfolio/)
 
 ---
 
